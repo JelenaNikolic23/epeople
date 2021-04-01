@@ -1,0 +1,16 @@
+.emptystate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 126px);
+
+img{
+  width: 20px;
+}
+p{
+  font-size: 20px;
+  margin-top: 20px;
+  color: var(--lightText);
+}
+}

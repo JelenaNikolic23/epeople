@@ -1,0 +1,16 @@
+.button {
+  background: var(--main);
+  color: var(--white);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+
+  &:disabled {
+    cursor: not-allowed;
+    background: var(--lightText);
+  }
+}

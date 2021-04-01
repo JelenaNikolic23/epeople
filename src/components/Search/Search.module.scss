@@ -1,0 +1,20 @@
+.search {
+  position: relative;
+  display: flex;
+  min-width: 100px;
+  padding: 10px 40px;
+
+  img {
+   height: 20px;
+    margin-right: 10px;
+  }
+
+  .users {
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid var(--main);
+   }
+}

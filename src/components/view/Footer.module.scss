@@ -1,0 +1,12 @@
+.footer {
+  background: var(--main);
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+  position: relative;
+  height: 40px;
+
+  p {
+    color: var(--white);
+  }
+}
